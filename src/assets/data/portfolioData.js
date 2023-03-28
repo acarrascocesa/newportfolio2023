@@ -8,6 +8,7 @@ import pokedex from "../images/pokedex.png";
 import portafolio from "../images/portfolio.png";
 import restserver from "../images/restserver.png";
 import shopping from "../images/shopping.png";
+import tesla from "../images/tesla.png"
 import weatherapp from "../images/weatherapp.png";
 import webserver from "../images/webserver.png";
 
@@ -24,7 +25,17 @@ const portfolio = [
       siteUrl: "https://acfood.netlify.app/",
     },
     {
-        id: "02",
+      id: "02",
+      imgUrl: tesla,
+      category: "Frontend",
+      title: "Tesla UI Clone",
+      description:
+        "A Clone of the Tesla UI Design",
+      technologies: ["React", "Styled Components", "Vite"],
+      siteUrl: "https://acteslaclone.netlify.app/",
+    },
+    {
+        id: "03",
         imgUrl: crypto,
         category: "Frontend",
         title: "Crypto Trade",
@@ -34,7 +45,7 @@ const portfolio = [
         siteUrl: "https://accryptos.netlify.app/",
       },
       {
-        id: "03",
+        id: "04",
         imgUrl: pokedex,
         category: "Frontend",
         title: "Pokedex APP",
@@ -44,7 +55,7 @@ const portfolio = [
         siteUrl: "https://acpokedex.netlify.app/",
       },
       {
-        id: "04",
+        id: "05",
         imgUrl: login,
         category: "Frontend",
         title: "Google Login",
@@ -54,7 +65,7 @@ const portfolio = [
         siteUrl: "https://acgooglelogin.netlify.app/login",
       },
       {
-        id: "05",
+        id: "06",
         imgUrl: portafolio,
         category: "Frontend",
         title: "Developer Portfolio",
@@ -64,7 +75,7 @@ const portfolio = [
         siteUrl: "https://acportfolioen.netlify.app/",
       },
       {
-        id: "06",
+        id: "07",
         imgUrl: shopping,
         category: "Frontend",
         title: "Shopping Cart",
@@ -74,7 +85,7 @@ const portfolio = [
         siteUrl: "https://acshoppingcart.netlify.app/",
       },
       {
-        id: "07",
+        id: "08",
         imgUrl: acdrinks,
         category: "Frontend",
         title: "Drinks Finder",
@@ -84,7 +95,7 @@ const portfolio = [
         siteUrl: "https://acdrinks.netlify.app/",
       },
       {
-        id: "08",
+        id: "09",
         imgUrl: form,
         category: "Frontend",
         title: "CRUD Form",
@@ -94,7 +105,7 @@ const portfolio = [
         siteUrl: "https://petshopac.netlify.app/",
       },
       {
-        id: "09",
+        id: "10",
         imgUrl: calculator,
         category: "Mobile",
         title: "Calculator App",
@@ -104,7 +115,7 @@ const portfolio = [
         siteUrl: "https://github.com/acarrascocesa/fluttercalculator",
       },
       {
-        id: "10",
+        id: "11",
         imgUrl: restserver,
         category: "Backend",
         title: "Node REST Server",
@@ -114,7 +125,7 @@ const portfolio = [
         siteUrl: "https://restserverac.up.railway.app/",
       },
       {
-        id: "11",
+        id: "12",
         imgUrl: webserver,
         category: "Backend",
         title: "Node Webserver",
@@ -124,7 +135,7 @@ const portfolio = [
         siteUrl: "https://node-webserver-ac.up.railway.app/",
       },
       {
-        id: "12",
+        id: "13",
         imgUrl: weatherapp,
         category: "Frontend",
         title: "Weather App",
