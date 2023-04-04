@@ -11,6 +11,7 @@ import shopping from "../images/shopping.png";
 import tesla from "../images/tesla.png"
 import weatherapp from "../images/weatherapp.png";
 import webserver from "../images/webserver.png";
+import photos from "../images/photos.png";
 
 
 const portfolio = [
@@ -33,6 +34,16 @@ const portfolio = [
         "A Clone of the Tesla UI Design",
       technologies: ["React", "Styled Components", "Vite"],
       siteUrl: "https://acteslaclone.netlify.app/",
+    },
+    {
+      id: "0",
+      imgUrl: photos,
+      category: "Frontend",
+      title: "Photography Portfolio",
+      description:
+        "A resposive Photoggraphy Portfolio",
+      technologies: ["HTML", "CSS", "Javascript"],
+      siteUrl: "https://randysphotos.netlify.app/",
     },
     {
         id: "03",
