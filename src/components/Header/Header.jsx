@@ -38,7 +38,7 @@ const Header = () => {
           {/* Menu Right */}
           <div className="flex items-center gap-4 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[30px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300">
             <button className="flex items-center gap-2">
-              <i className="ri-send-plane-line"></i> Let's Talk
+              <i className="ri-send-plane-line"></i> Hire Me
             </button>
           </div>
           <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
