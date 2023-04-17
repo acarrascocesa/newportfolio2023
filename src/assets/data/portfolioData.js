@@ -12,9 +12,19 @@ import tesla from "../images/tesla.png";
 import weatherapp from "../images/weatherapp.png";
 import webserver from "../images/webserver.png";
 import photos from "../images/photos.png";
+import recipes from "../images/recipes.png";
 import tech from "../images/tech.png";
 
 const portfolio = [
+  {
+    id: "02",
+    imgUrl: tesla,
+    category: "Frontend",
+    title: "Tesla UI Clone",
+    description: "A Clone of the Tesla UI Design",
+    technologies: ["React", "Styled Components", "Vite"],
+    siteUrl: "https://acteslaclone.netlify.app/",
+  },
   {
     id: "01",
     imgUrl: food,
@@ -32,15 +42,6 @@ const portfolio = [
     description: "Fullstack Ecommerce made with React and Strapi.",
     technologies: ["React", "Tailwind", "Axios", "Vite", "Strapi"],
     siteUrl: "https://github.com/acarrascocesa/techstore",
-  },
-  {
-    id: "02",
-    imgUrl: tesla,
-    category: "Frontend",
-    title: "Tesla UI Clone",
-    description: "A Clone of the Tesla UI Design",
-    technologies: ["React", "Styled Components", "Vite"],
-    siteUrl: "https://acteslaclone.netlify.app/",
   },
   {
     id: "0",
@@ -70,6 +71,15 @@ const portfolio = [
       "Application to search for pokemon by name or type that shows you their properties, abilities, attacks, etc.",
     technologies: ["React", "CSS", "Axios", "Vite"],
     siteUrl: "https://acpokedex.netlify.app/",
+  },
+  {
+    id: "0001",
+    imgUrl: recipes,
+    category: "Frotend",
+    title: "AA Recipes App",
+    description: "App to search for food recipes",
+    technologies: ["React", "Sass", "Axios", "Vite"],
+    siteUrl: "https://aarecipes.netlify.app/",
   },
   {
     id: "05",
