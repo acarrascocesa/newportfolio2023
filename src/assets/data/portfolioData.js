@@ -14,6 +14,7 @@ import webserver from "../images/webserver.png";
 import photos from "../images/photos.png";
 import recipes from "../images/recipes.png";
 import tech from "../images/tech.png";
+import encuesta from "../images/encuesta.png";
 
 const portfolio = [
   {
@@ -26,9 +27,18 @@ const portfolio = [
     siteUrl: "https://acteslaclone.netlify.app/",
   },
   {
+    id: "14",
+    imgUrl: encuesta,
+    category: "Backend",
+    title: "Internal SUrvey App",
+    description: "Fullstack survey in which a score is sent according to a parameter to a database made with sql server.",
+    technologies: ["NextJS", "SurveyJS", "CSS Module"],
+    siteUrl: "https://encuesta-final.vercel.app/orden/encuesta3/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJhbWV0cm8iOiIyMDU4NDkiLCJpYXQiOjE2ODU5OTY4OTl9.Iu2zlv3b5paCDitRNQen7P2KFf5kCPZBEv6v0yZL6Zg",
+  },
+  {
     id: "01",
     imgUrl: food,
-    category: "Frotend",
+    category: "Frontend",
     title: "Food Recipes App",
     description: "App to search for food recipes",
     technologies: ["React", "Sass", "Axios", "Vite"],

@@ -49,9 +49,12 @@ const Hero = () => {
               <span>
                 <i class="ri-apps-2-fill"></i>
               </span>
-              My name is Angel Carrasco and can help you build great Web Applications using React and Node.
-              I am a Fullstack Developer, I have certifications in REACT for Frontend and NODE for the Backend.
-              I use the MERN Stack to build fullstack Apps.
+              My name is Angel Carrasco and can help you build great Web
+              Applications using React and Node. I am a Fullstack Developer, I
+              have certifications in REACT for Frontend and NODE for the
+              Backend. I use the MERN Stack to build fullstack Apps. <br />I
+              currently work as a Junior Developer in a local company in the
+              Dominican Republic where I use Next JS, SQL Server, React, etc.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
@@ -104,7 +107,7 @@ const Hero = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={35} duration={2} suffix='+' />
+                <CountUp start={0} end={35} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Projects Completed

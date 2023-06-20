@@ -1,7 +1,7 @@
 import frontendImg from "../../assets/images/front-end.png";
 import backendImg from "../../assets/images/backend.png";
 import apps from "../../assets/images/apps.png";
-import mern from "../../assets/images/mern.png"
+import mern from "../../assets/images/mern.png";
 
 const Services = () => {
   return (
@@ -35,8 +35,8 @@ const Services = () => {
                           Frontend Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          I use React for Frontend Apps. I can work with CSS,
-                          Tailwind, Style Components, Sass for style.
+                          I use React and NextJS for Frontend Apps. I can work
+                          with CSS, Tailwind, Style Components, Sass for style.
                         </p>
                       </div>
                     </div>
@@ -63,7 +63,7 @@ const Services = () => {
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
                           I use Node for the Backend. I can work with Express,
-                          MongoDB, Postgres for Databases.
+                          MongoDB, Postgres and SQL Server for Databases.
                         </p>
                       </div>
                     </div>
@@ -116,8 +116,8 @@ const Services = () => {
                           MERN Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          I use the MERN Stack to build Fullstack Apps.
-                          Mongo, Express, React and Node.
+                          I use the MERN Stack to build Fullstack Apps. Mongo,
+                          Express, React and Node.
                         </p>
                       </div>
                     </div>
