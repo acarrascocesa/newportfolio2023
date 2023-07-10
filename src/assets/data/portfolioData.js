@@ -15,6 +15,7 @@ import photos from "../images/photos.png";
 import recipes from "../images/recipes.png";
 import tech from "../images/tech.png";
 import encuesta from "../images/encuesta.png";
+import shekinah from "../images/shekinah.png"
 
 const portfolio = [
   {
@@ -25,6 +26,15 @@ const portfolio = [
     description: "A Clone of the Tesla UI Design",
     technologies: ["React", "Styled Components", "Vite"],
     siteUrl: "https://acteslaclone.netlify.app/",
+  },
+  {
+    id: "0001",
+    imgUrl: shekinah,
+    category: "Frontend",
+    title: "Church Web",
+    description: "Web application of a church, where you can make donations, watch live sermon, etc.",
+    technologies: ["React", "CSS", "Axios", "Vite"],
+    siteUrl: "https://shekinahtc.netlify.app/",
   },
   {
     id: "14",
