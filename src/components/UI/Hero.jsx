@@ -1,6 +1,6 @@
 import profileImg from "../../assets/images/mee.png";
 import CountUp from "react-countup";
-import cvFile from "../../assets/cv.pdf";
+import cvFile from "../../assets/cv2023.pdf";
 
 const Hero = () => {
   return (
