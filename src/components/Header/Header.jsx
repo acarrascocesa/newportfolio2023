@@ -39,6 +39,14 @@ const Header = () => {
               <li>
                 <a
                   className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                  href="#work"
+                >
+                  EXPERIENCE
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
                   href="#services"
                 >
                   SERVICES
@@ -72,6 +80,14 @@ const Header = () => {
                       href="#about"
                     >
                       ABOUT
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="block px-4 py-2 text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                      href="#work"
+                    >
+                      EXPERIENCE
                     </a>
                   </li>
                   <li>

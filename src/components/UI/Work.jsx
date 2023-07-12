@@ -5,7 +5,7 @@ import mern from "../../assets/images/mern.png";
 
 const Work = () => {
   return (
-    <section id="work-experience">
+    <section id="work">
       <div className="container lg:pt-5">
         <div className="text-center">
           <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5 uppercase">
