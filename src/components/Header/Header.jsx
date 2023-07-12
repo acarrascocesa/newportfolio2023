@@ -1,4 +1,12 @@
+import React, { useState } from "react";
+
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
       {/* Logo */}
@@ -9,43 +17,83 @@ const Header = () => {
               AC
             </span>
             <div className="leading-[20px]">
-              <h2 className="text-xl text-smallTextColor font-[700]">FULLSTACK</h2>
+              <h2 className="text-xl text-smallTextColor font-[700]">
+                FULLSTACK
+              </h2>
               <p className="text-smallTextColor text-[18px] font-[500]">
                 DEVELOPER
               </p>
             </div>
           </div>
           {/* Menu */}
-          <div className="menu">
+          <div className="menu hidden md:block">
             <ul className="flex items-center gap-10">
               <li>
-                <a className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md" href="#about">
+                <a
+                  className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                  href="#about"
+                >
                   ABOUT
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md" href="#services">
+                <a
+                  className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                  href="#services"
+                >
                   SERVICES
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md" href="#portfolio">
+                <a
+                  className="text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                  href="#portfolio"
+                >
                   PORTFOLIO
                 </a>
               </li>
             </ul>
           </div>
-          {/* Menu Right */}
 
-          {/* <div className="flex items-center gap-4 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[30px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300">
-            <button className="flex items-center gap-2">
-              <i className="ri-send-plane-line"></i> 
-            </button>
-          </div> */}
-
-          <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
-            <i className="ri-menu-5-line"></i>
-          </span>
+          {/* Responsive Menu */}
+          <div className="md:hidden">
+            <span
+              className="text-2xl text-smallTextColor cursor-pointer"
+              onClick={toggleMenu}
+            >
+              <i className="ri-menu-5-line"></i>
+            </span>
+            {menuOpen && (
+              <div className="absolute top-[78px] right-0 bg-white rounded-md shadow-lg mt-2">
+                <ul className="py-2">
+                  <li>
+                    <a
+                      className="block px-4 py-2 text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                      href="#about"
+                    >
+                      ABOUT
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="block px-4 py-2 text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                      href="#services"
+                    >
+                      SERVICES
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="block px-4 py-2 text-smallTextColor font-[500] hover:bg-[#26a0da] hover:text-white hover:rounded-md"
+                      href="#portfolio"
+                    >
+                      PORTFOLIO
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </header>

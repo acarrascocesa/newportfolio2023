@@ -1,5 +1,6 @@
 import profileImg from "../../assets/images/mee.png";
 import CountUp from "react-countup";
+import cvFile from "../../assets/cv.pdf";
 
 const Hero = () => {
   return (
@@ -29,11 +30,12 @@ const Hero = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#about">
+              <a href={cvFile} download="cv.pdf">
                 <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-lg">
-                  <i class="ri-mail-send-line"></i>Hire Me!!
+                  <i className="ri-download-line"></i>Download CV
                 </button>
               </a>
+
               <a
                 className=" text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
                 href="#portfolio"
