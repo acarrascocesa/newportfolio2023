@@ -1,4 +1,4 @@
-import profileImg from "../../assets/images/mee.png";
+import profileImg from "../../assets/images/meee.jpg";
 import CountUp from "react-countup";
 import cvFile from "../../assets/acdev.pdf";
 

@@ -1,7 +1,6 @@
 import frontendImg from "../../assets/images/front-end.png";
 import backendImg from "../../assets/images/backend.png";
 import apps from "../../assets/images/apps.png";
-import mern from "../../assets/images/mern.png";
 
 const Work = () => {
   return (
