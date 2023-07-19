@@ -95,7 +95,19 @@ const Hero = () => {
           {/* Profile IMG */}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-              <img className="rounded-xl" src={profileImg} alt="me" />
+            <div class="card">
+                <div class="image-box">
+                  <img className="rounded-xl" src={profileImg} alt="" />
+                </div>
+                <div class="text-box">
+                  <div class="main">
+                    <span>Angel Carrasco</span>
+                  </div>
+                  <div class="sub">
+                    <span>Fullstack Developer</span>
+                  </div>
+                </div>
+              </div>
             </figure>
           </div>
           <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
