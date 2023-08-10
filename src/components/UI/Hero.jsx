@@ -31,7 +31,7 @@ const Hero = () => {
               className="flex items-center gap-6 mt-7"
             >
               <a href={cvFile} download="cv.pdf">
-                <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-lg">
+                <button className="bg-primaryColor text-white animate-bounce animate-infinite font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-lg">
                   <i className="ri-download-line"></i>Download CV
                 </button>
               </a>
@@ -61,33 +61,36 @@ const Hero = () => {
 
             <div className="flex items-center gap-9 mt-14">
               <span className="text-smallTextColor text-[15px] font-[600]">
-                Contact Me
+                Contact Me:
               </span>
-              <span>
+              <span className="animate-bounce animate-infinite">
                 <a
-                  className="text-smallTextColor text-[24px] font-[600]"
+                  className="text-smallTextColor text-[24px] font-[600] transform transition-transform duration-300 hover:text-primaryColor hover:scale-105 hover:-translate-y-1"
                   href="https://www.linkedin.com/in/angel-carrasco24/"
                   target="_blank"
+                  rel="noopener noreferrer" // No olvides este atributo por razones de seguridad.
                 >
-                  <i class="ri-linkedin-box-fill"></i>
+                  <i className="ri-linkedin-box-fill"></i>
                 </a>
               </span>
-              <span>
+              <span className="animate-bounce animate-infinite">
                 <a
-                  className="text-smallTextColor text-[24px] font-[600]"
+                  className="text-smallTextColor text-[24px] font-[600] transform transition-transform duration-300 hover:text-primaryColor hover:scale-105 hover:-translate-y-1"
                   href="https://github.com/acarrascocesa/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
               </span>
-              <span>
+              <span className="animate-bounce animate-infinite">
                 <a
-                  className="text-smallTextColor text-[24px] font-[600]"
+                  className="text-smallTextColor text-[24px] font-[600] transform transition-transform duration-300 hover:text-primaryColor hover:scale-105 hover:-translate-y-1"
                   href="https://www.instagram.com/josecesa25/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i class="ri-instagram-fill"></i>
+                  <i className="ri-instagram-fill"></i>
                 </a>
               </span>
             </div>
@@ -95,7 +98,7 @@ const Hero = () => {
           {/* Profile IMG */}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-            <div class="card">
+              <div class="card">
                 <div class="image-box">
                   <img className="rounded-xl" src={profileImg} alt="" />
                 </div>
