@@ -15,7 +15,8 @@ import photos from "../images/photos.png";
 import recipes from "../images/recipes.png";
 import tech from "../images/tech.png";
 import encuesta from "../images/encuesta.png";
-import shekinah from "../images/shekinah.png"
+import shekinah from "../images/shekinah.png";
+import vape from "../images/vape.png";
 
 const portfolio = [
   {
@@ -28,11 +29,22 @@ const portfolio = [
     siteUrl: "https://acteslaclone.netlify.app/",
   },
   {
+    id: "0002",
+    imgUrl: vape,
+    category: "Frontend",
+    title: "Vape Shop",
+    description:
+      "E-commerce made with React and Node(Express) for the sale of vapes(currently working)",
+    technologies: ["React", "CSS", "Vite", "Slick-carousel", "Express", "Node"],
+    siteUrl: "https://acportfolio2023.netlify.app/",
+  },
+  {
     id: "0001",
     imgUrl: shekinah,
     category: "Frontend",
     title: "Church Web",
-    description: "Web application of a church, where you can make donations, watch live sermon, etc.",
+    description:
+      "Web application of a church, where you can make donations, watch live sermon, etc.",
     technologies: ["React", "CSS", "Axios", "Vite"],
     siteUrl: "https://shekinahtc.netlify.app/",
   },
@@ -41,9 +53,11 @@ const portfolio = [
     imgUrl: encuesta,
     category: "Backend",
     title: "Internal SUrvey App",
-    description: "Fullstack survey in which a score is sent according to a parameter to a database made with sql server.",
+    description:
+      "Fullstack survey in which a score is sent according to a parameter to a database made with sql server.",
     technologies: ["NextJS", "SurveyJS", "CSS Module"],
-    siteUrl: "https://encuesta-final.vercel.app/orden/encuesta3/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJhbWV0cm8iOiIyMDU4NDkiLCJpYXQiOjE2ODU5OTY4OTl9.Iu2zlv3b5paCDitRNQen7P2KFf5kCPZBEv6v0yZL6Zg",
+    siteUrl:
+      "https://encuesta-final.vercel.app/orden/encuesta3/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJhbWV0cm8iOiIyMDU4NDkiLCJpYXQiOjE2ODU5OTY4OTl9.Iu2zlv3b5paCDitRNQen7P2KFf5kCPZBEv6v0yZL6Zg",
   },
   {
     id: "01",
