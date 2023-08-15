@@ -36,7 +36,7 @@ const portfolio = [
     title: "Cars Rental",
     description: "A Cars Rental App",
     technologies: ["React", "Next JS", "Tailwind"],
-    siteUrl: "https://acteslaclone.netlify.app/",
+    siteUrl: "https://ac-cars-store.vercel.app/",
   },
   {
     id: "0001",
