@@ -17,6 +17,7 @@ import tech from "../images/tech.png";
 import encuesta from "../images/encuesta.png";
 import shekinah from "../images/shekinah.png";
 import vape from "../images/vape.png";
+import cars from "../images/cars.png";
 
 const portfolio = [
   {
@@ -29,14 +30,13 @@ const portfolio = [
     siteUrl: "https://acteslaclone.netlify.app/",
   },
   {
-    id: "0002",
-    imgUrl: vape,
+    id: "0001",
+    imgUrl: cars,
     category: "Frontend",
-    title: "Vape Shop",
-    description:
-      "E-commerce made with React and Node(Express) for the sale of vapes(currently working)",
-    technologies: ["React", "CSS", "Vite", "Slick-carousel", "Express", "Node"],
-    siteUrl: "https://acportfolio2023.netlify.app/",
+    title: "Cars Rental",
+    description: "A Cars Rental App",
+    technologies: ["React", "Next JS", "Tailwind"],
+    siteUrl: "https://acteslaclone.netlify.app/",
   },
   {
     id: "0001",
@@ -47,6 +47,16 @@ const portfolio = [
       "Web application of a church, where you can make donations, watch live sermon, etc.",
     technologies: ["React", "CSS", "Axios", "Vite"],
     siteUrl: "https://shekinahtc.netlify.app/",
+  },
+  {
+    id: "0002",
+    imgUrl: vape,
+    category: "Frontend",
+    title: "Vape Shop",
+    description:
+      "E-commerce made with React and Node(Express) for the sale of vapes(currently working)",
+    technologies: ["React", "CSS", "Vite", "Slick-carousel", "Express", "Node"],
+    siteUrl: "https://acportfolio2023.netlify.app/",
   },
   {
     id: "14",
