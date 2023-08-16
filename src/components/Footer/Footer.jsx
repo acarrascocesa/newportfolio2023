@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4">
           <a
-            className="text-white text-2xl font-semibold"
+            className="text-white text-2xl font-semibold animate-jump animate-infinite"
             href="https://www.linkedin.com/in/angel-carrasco24/"
             target="_blank"
             rel="noopener noreferrer"
@@ -17,7 +17,7 @@ const Footer = () => {
             <i className="ri-linkedin-box-fill"></i>
           </a>
           <a
-            className="text-white text-2xl font-semibold"
+            className="text-white text-2xl font-semibold animate-jump animate-infinite"
             href="https://github.com/acarrascocesa/"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
             <i className="ri-github-fill"></i>
           </a>
           <a
-            className="text-white text-2xl font-semibold"
+            className="text-white text-2xl font-semibold animate-jump animate-infinite"
             href="https://www.instagram.com/josecesa25/"
             target="_blank"
             rel="noopener noreferrer"

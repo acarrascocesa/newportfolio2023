@@ -18,19 +18,20 @@ import encuesta from "../images/encuesta.png";
 import shekinah from "../images/shekinah.png";
 import vape from "../images/vape.png";
 import cars from "../images/cars.png";
+import janam from "../images/janam.png";
 
 const portfolio = [
   {
-    id: "02",
-    imgUrl: tesla,
-    category: "Frontend",
-    title: "Tesla UI Clone",
-    description: "A Clone of the Tesla UI Design",
-    technologies: ["React", "Styled Components", "Vite"],
-    siteUrl: "https://acteslaclone.netlify.app/",
+    id: "15",
+    imgUrl: janam,
+    category: "Backend",
+    title: "Janam Ecommerce",
+    description: "A Fullstack Ecommerce built with React and Nest JS and that i give remote maintenance.",
+    technologies: ["React", "Nest JS", "Docker", "Azure", "Postgres"],
+    siteUrl: "https://www.janammuebles.com/",
   },
   {
-    id: "0001",
+    id: "19",
     imgUrl: cars,
     category: "Frontend",
     title: "Cars Rental",
@@ -39,7 +40,7 @@ const portfolio = [
     siteUrl: "https://ac-cars-store.vercel.app/",
   },
   {
-    id: "00311",
+    id: "18",
     imgUrl: shekinah,
     category: "Frontend",
     title: "Church Web",
@@ -49,7 +50,7 @@ const portfolio = [
     siteUrl: "https://shekinahtc.netlify.app/",
   },
   {
-    id: "0002",
+    id: "21",
     imgUrl: vape,
     category: "Frontend",
     title: "Vape Shop",
@@ -70,6 +71,15 @@ const portfolio = [
       "https://encuesta-final.vercel.app/orden/encuesta3/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJhbWV0cm8iOiIyMDU4NDkiLCJpYXQiOjE2ODU5OTY4OTl9.Iu2zlv3b5paCDitRNQen7P2KFf5kCPZBEv6v0yZL6Zg",
   },
   {
+    id: "02",
+    imgUrl: tesla,
+    category: "Frontend",
+    title: "Tesla UI Clone",
+    description: "A Clone of the Tesla UI Design",
+    technologies: ["React", "Styled Components", "Vite"],
+    siteUrl: "https://acteslaclone.netlify.app/",
+  },
+  {
     id: "01",
     imgUrl: food,
     category: "Frontend",
@@ -79,7 +89,7 @@ const portfolio = [
     siteUrl: "https://acfood.netlify.app/",
   },
   {
-    id: "001",
+    id: "17",
     imgUrl: tech,
     category: "Backend",
     title: "Fullstack Ecommerce",
@@ -117,7 +127,7 @@ const portfolio = [
     siteUrl: "https://acpokedex.netlify.app/",
   },
   {
-    id: "0001",
+    id: "16",
     imgUrl: recipes,
     category: "Frotend",
     title: "AA Recipes App",
