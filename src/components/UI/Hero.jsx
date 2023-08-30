@@ -51,12 +51,17 @@ const Hero = () => {
               <span>
                 <i class="ri-apps-2-fill"></i>
               </span>
-              My name is Angel Carrasco and can help you build great Web
-              Applications using React and Node. I am a Fullstack Developer, I
-              have certifications in REACT for Frontend and NODE for the
-              Backend. I use the MERN Stack to build fullstack Apps. <br />I
-              currently work as a Junior Developer in a local company in the
-              Dominican Republic where I use Next JS, SQL Server, React, etc.
+              My name is Angel Carrasco and can help you build great Web Hello,
+              I'm Angel Carrasco. As a Fullstack Developer, I specialize in
+              crafting high-performance web applications using React for the
+              frontend and Node for the backend. My primary focus is on the MERN
+              Stack, which enables me to develop comprehensive and cohesive
+              apps. <br />I hold certifications in both React and Node,
+              underscoring my dedication and expertise in these technologies.
+              Currently, I'm privileged to serve as a Junior Developer at a
+              prominent local company in the Dominican Republic, where I employ
+              tools such as Next JS, SQL Server, and React in my day-to-day
+              projects.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
