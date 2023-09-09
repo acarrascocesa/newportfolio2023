@@ -19,6 +19,7 @@ import shekinah from "../images/shekinah.png";
 import vape from "../images/vape.png";
 import cars from "../images/cars.png";
 import janam from "../images/janam.png";
+import cv from "../images/cv-astro.png";
 
 const portfolio = [
   {
@@ -26,9 +27,20 @@ const portfolio = [
     imgUrl: janam,
     category: "Backend",
     title: "Janam Ecommerce",
-    description: "A Fullstack Ecommerce built with React and Nest JS and that i give remote maintenance.",
+    description:
+      "A Fullstack Ecommerce built with React and Nest JS and that i give remote maintenance.",
     technologies: ["React", "Nest JS", "Docker", "Azure", "Postgres"],
     siteUrl: "https://www.janammuebles.com/",
+  },
+  {
+    id: "22",
+    imgUrl: cv,
+    category: "Frontend",
+    title: "CV App",
+    description:
+      "This is my online CV, built using the innovative Astro framework. Designed for fast loading and compatibility across all devices, this resume offers an exceptional user experience, allowing recruiters easy access to my professional background, skills, and portfolio.",
+    technologies: ["Astro", "CSS", "Javascript"],
+    siteUrl: "https://acdevcv.netlify.app/",
   },
   {
     id: "19",
@@ -50,16 +62,6 @@ const portfolio = [
     siteUrl: "https://shekinahtc.netlify.app/",
   },
   {
-    id: "21",
-    imgUrl: vape,
-    category: "Frontend",
-    title: "Vape Shop",
-    description:
-      "E-commerce made with React and Node(Express) for the sale of vapes(currently working)",
-    technologies: ["React", "CSS", "Vite", "Slick-carousel", "Express", "Node"],
-    siteUrl: "https://acportfolio2023.netlify.app/",
-  },
-  {
     id: "14",
     imgUrl: encuesta,
     category: "Backend",
@@ -78,6 +80,16 @@ const portfolio = [
     description: "A Clone of the Tesla UI Design",
     technologies: ["React", "Styled Components", "Vite"],
     siteUrl: "https://acteslaclone.netlify.app/",
+  },
+  {
+    id: "21",
+    imgUrl: vape,
+    category: "Frontend",
+    title: "Vape Shop",
+    description:
+      "E-commerce made with React and Node(Express) for the sale of vapes(currently working)",
+    technologies: ["React", "CSS", "Vite", "Slick-carousel", "Express", "Node"],
+    siteUrl: "https://acportfolio2023.netlify.app/",
   },
   {
     id: "01",

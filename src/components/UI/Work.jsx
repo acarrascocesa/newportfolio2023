@@ -19,6 +19,52 @@ const Work = () => {
             <div className="relative text-gray-700 antialiased text-sm font-semibold">
               <div className="hidden absolute w-1 sm:block bg-blue-500 h-full left-1/2 transform -translate-x-1/2"></div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                {/* Work Experience Item 2 */}
+                <div data-aos="fade-left" data-aos-duration="1200">
+                  <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
+                    <div className="flex items-center">
+                      <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 flex items-center justify-center">
+                        <figure>
+                          <img src={backendImg} alt="backend" />
+                        </figure>
+                      </div>
+                      <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl ml-4">
+                        Remote Ecommerce Maintenance at Janam Muebles
+                      </h3>
+                    </div>
+                    <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                      As a Junior Developer specializing in both React and
+                      Nest.js, I am responsible for maintaining and optimizing a
+                      sophisticated ecommerce platform built on a robust tech
+                      stack that includes React, Nest.js, and PostgreSQL.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Work Experience Item 2 */}
+                <div data-aos="fade-left" data-aos-duration="1200">
+                  <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
+                    <div className="flex items-center">
+                      <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 flex items-center justify-center">
+                        <figure>
+                          <img src={backendImg} alt="backend" />
+                        </figure>
+                      </div>
+                      <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl ml-4">
+                        WordPress Developer at NetixRD
+                      </h3>
+                    </div>
+                    <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                      As a Junior WordPress Developer specializing in Elementor,
+                      I am responsible for crafting visually compelling and
+                      functionally robust websites that provide an intuitive
+                      user experience. Utilizing the Elementor page builder, I
+                      design responsive layouts and implement custom
+                      functionalities to meet specific client needs.
+                    </p>
+                  </div>
+                </div>
+
                 {/* Work Experience Item 1 */}
                 <div data-aos="fade-right" data-aos-duration="1200">
                   <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
@@ -38,27 +84,6 @@ const Work = () => {
                       maintained web applications using React. - Utilized SQL
                       Server for database management. - Collaborated with a team
                       to implement Next.js for server-side rendering.
-                    </p>
-                  </div>
-                </div>
-                {/* Work Experience Item 2 */}
-                <div data-aos="fade-left" data-aos-duration="1200">
-                  <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
-                    <div className="flex items-center">
-                      <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 flex items-center justify-center">
-                        <figure>
-                          <img src={backendImg} alt="backend" />
-                        </figure>
-                      </div>
-                      <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl ml-4">
-                        Remote Ecommerce Maintenance at Janam Muebles
-                      </h3>
-                    </div>
-                    <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                      - Provided remote maintenance services for an ecommerce
-                      platform built with React, Nest.js, and Postgres. -
-                      Assisted with bug fixes and troubleshooting. - Conducted
-                      regular code reviews and optimizations.
                     </p>
                   </div>
                 </div>
