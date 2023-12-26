@@ -30,7 +30,7 @@ const Hero = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-               <a href="https://acdevcv.netlify.app/" target="_blank">
+              <a href="https://acdevcv.netlify.app/" target="_blank">
                 <button className="bg-primaryColor text-white animate-bounce animate-infinite font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-lg">
                   <i className="ri-file-text-line"></i>Online CV
                 </button>
@@ -42,7 +42,7 @@ const Hero = () => {
                 </button>
               </a> */}
 
-             
+
 
               <a
                 className=" text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
@@ -59,16 +59,12 @@ const Hero = () => {
               <span>
                 <i class="ri-apps-2-fill"></i>
               </span>
-              My name is Angel Carrasco and can help you build great. As a
-              Fullstack Developer, I specialize in crafting high-performance web
-              applications using React for the frontend and Node for the
-              backend. My primary focus is on the MERN Stack, which enables me
-              to develop comprehensive and cohesive apps. <br />I hold
-              certifications in both React and Node, underscoring my dedication
-              and expertise in these technologies. Currently, I'm privileged to
-              serve as a Junior Developer at a prominent local company in the
-              Dominican Republic, where I employ tools such as Next JS, SQL
-              Server, and React in my day-to-day projects.
+              My name is Angel Carrasco, and I'm a dedicated Fullstack Developer specializing in high-performance web applications.
+               My skill set is centered around the MERN Stack, primarily using React for the frontend and Node.js for the backend. 
+               I have a proven track record with certifications in both React and Node, highlighting my commitment and expertise.
+
+              Currently exploring new opportunities, I have a solid background as a Developer, where I utilized Next.js, SQL Server, Oracle SQL, Express and React. 
+              My focus is on creating seamless, cohesive apps that drive modern web experiences.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
