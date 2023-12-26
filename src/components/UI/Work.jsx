@@ -41,6 +41,29 @@ const Work = () => {
                   </div>
                 </div>
 
+                {/* Work Experience Item 5 */}
+                <div data-aos="fade-left" data-aos-duration="1200">
+                  <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
+                    <div className="flex items-center">
+                      <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 flex items-center justify-center">
+                        <figure>
+                          <img src={backendImg} alt="backend" />
+                        </figure>
+                      </div>
+                      <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl ml-4">
+                        Mobile Developer at SII
+                      </h3>
+                    </div>
+                    <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                      As a Mobile Developer specializing in Flutter,
+                      I focus on creating secure and user-friendly banking applications for the Dominican Republic.
+                      With Flutter and Dart, I design responsive interfaces and manage app state using Cubit,
+                      ensuring a seamless user experience.
+                      My expertise lies in developing efficient and visually appealing financial solutions.
+                    </p>
+                  </div>
+                </div>
+
                 {/* Work Experience Item 2 */}
                 <div data-aos="fade-left" data-aos-duration="1200">
                   <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
@@ -84,6 +107,28 @@ const Work = () => {
                       maintained web applications using React. - Utilized SQL
                       Server for database management. - Collaborated with a team
                       to implement Next.js for server-side rendering.
+                    </p>
+                  </div>
+                </div>
+                {/* Work Experience Item 6 */}
+                <div data-aos="fade-right" data-aos-duration="1200">
+                  <div className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
+                    <div className="flex items-center">
+                      <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 flex items-center justify-center">
+                        <figure>
+                          <img src={apps} alt="mobile development" />
+                        </figure>
+                      </div>
+                      <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl ml-4">
+                        Financial Intelligence Analyst at Banreservas
+                      </h3>
+                    </div>
+                    <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
+                      As a Financial Intelligence Analyst at Banco de Reservas,
+                      I leverage Power BI, Python, and Oracle SQL for data analysis,
+                      cleansing, and creating interactive visualizations.
+                      My role focuses on delivering clear financial insights and
+                      supporting strategic decisions through advanced data-driven methodologies.
                     </p>
                   </div>
                 </div>
